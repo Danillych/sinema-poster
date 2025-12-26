@@ -4,8 +4,8 @@ const movies = [
   { id: 2, title: "Начало", year: 2010, kinopoiskId: 447301, poster: "img/Inception.jpg" },
   { id: 3, title: "Интерстеллар", year: 2014, kinopoiskId: 258687, poster: "img/Interstellar.jpg" },
   { id: 4, title: "Побег из Шоушенка", year: 1994, kinopoiskId: 326, poster: "img/shawshank.png" },
-  { id: 5, title: "Крёстный отец", year: 1972, kinopoiskId: 342, poster: "img/Godfather.jpg" },
-  { id: 6, title: "Форрест Гамп", year: 1994, kinopoiskId: 324, poster: "img/forrest gump.png" }
+  { id: 5, title: "Криминальное чтиво", year: 1994, kinopoiskId: 342, poster: "img/crime.jpg" },
+  { id: 6, title: "Поймай меня если сможешь", year: 2002, kinopoiskId: 324, poster: "img/catch me if you can.jpg" }
 ];
 
 let favorites = JSON.parse(localStorage.getItem('favorites')) || [];

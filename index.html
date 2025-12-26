@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Danik.net</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Подборка лучших фильмов by Danik</h1>
+    <button id="toggle-favorites">Избранное</button>
+  </header>
+
+  <main>
+    <div id="movie-list" class="movie-container"></div>
+    <div id="favorites-list" class="movie-container hidden"></div>
+  </main>
+  
+  <button id="scroll-button">↑</button>
+
+ <div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <span id="close-modal" class="close">&times;</span>
+    <img id="modal-poster" class="modal-poster" src="" alt="">
+    <h2 id="modal-title"></h2>
+    <p id="modal-year"></p>
+    <button id="go-to-kinopoisk" class="btn-kinopoisk">Перейти к просмотру</button>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
